@@ -6,6 +6,7 @@ export const ProfileCardContainer = styled.div`
     margin: 0 auto;
     padding: 1.5rem 1.5rem;
     border-radius: 10px;
+    
     position: relative;
     top:-5rem;
 
@@ -13,6 +14,7 @@ export const ProfileCardContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     background: ${(props) => props.theme['base-profile']};
+    box-shadow: 0px 0px 15px ${(props) => props.theme['base-input']};	
 
 `
 export const ProfileImage = styled.img`
